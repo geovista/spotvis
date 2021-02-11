@@ -1,0 +1,206 @@
+path {
+  stroke-linejoin: round;
+}
+
+.states {
+  fill: #bbb;
+  /*fill:#E0E0E0;*/
+  pointer-events: none;
+  opacity:1;
+}
+
+.districts {
+  fill: #bbb;
+  /*fill:#E0E0E0;*/
+  pointer-events: none;
+  opacity:0;
+}
+
+.district-boundaries {
+  pointer-events: none;
+  stroke-linejoin: "round";
+  fill: none;
+  /*stroke: #ddd;*/
+  stroke: #ffffff;
+}
+
+.state-boundaries {
+  pointer-events: none;
+  stroke-linejoin: "round";
+  fill: none;
+  /*stroke: #fff;*/
+  stroke: #ffffff;
+}
+
+.currentAggregate {
+  pointer-events: fill;
+}
+
+#mapable_leftSide .currentAggregate :hover {
+  stroke-opacity: 0;
+  /*fill: #762A83;*/
+  fill: #af8dc3;
+  fill-opacity: 1;
+}
+
+#mapable_rightSide .currentAggregate :hover {
+  stroke-opacity: 0;
+  /*fill: #1B7837;*/
+  fill: #7fbf7b;
+  fill-opacity: 1;
+}
+
+
+.noncurrentAggregate {
+  pointer-events: none;
+}
+
+.districts.similarDistricts {
+
+}
+
+#mapable_leftSide .districts .active, #mapable_leftSide .states .active {
+  /*fill: #762A83;*/
+}
+
+#mapable_rightSide .districts .active, #mapable_rightSide .states .active {
+  /*fill: #1B7837;*/
+}
+
+/* button junk */
+.buttonRect {
+  fill: white;
+  fill-opacity: .1;
+  stroke: black;
+  stroke-opacity: .5;
+  stroke-width: .1;
+
+}
+
+.buttonText {
+  fill: black;
+  opacity: .7;
+  pointer-events: none;
+  dominant-baseline: middle;
+  font: 200 14px Helvetica;
+}
+
+
+.simDifUnitGroup.Similar .simDifRect.leftSideRect {
+  fill: #762A83;
+  fill-opacity: .1;
+}
+.simDifUnitGroup.Similar .simDifRect.rightSideRect{
+  fill: #1B7837;
+  fill-opacity: .1;
+}
+
+.simDifRect   {
+  fill:orange;
+  fill-opacity: .1;
+}
+
+.simDifText {
+  fill: #474747;
+  /*opacity: .7;*/
+  pointer-events: none;
+  dominant-baseline: text-before-edge;
+  font: 300 10px Helvetica;
+}
+.simDifUnitGroup:hover>.simDifText {
+  fill: blue;
+  opacity: 1;
+  pointer-events: none;
+  dominant-baseline: text-before-edge;
+  font: 200 10px Helvetica;
+  text-decoration: underline;
+}
+
+.zoomButtonGroup:hover> .buttonRect, .simDifButtonGroup:hover> .buttonRect {
+  fill-opacity: .7;
+  stroke: black;
+  stroke-opacity:1;
+  stroke-width: .5;
+}
+
+.zoomButtonGroup:hover> .buttonText, .simDifButtonGroup:hover> .buttonText{
+  fill: black;
+}
+
+.fillSwitchButtonGroup:hover> rect{
+  fill-opacity: .7;
+  stroke: black;
+  stroke-opacity: 1;
+  stroke-width: .5;
+}
+
+.fillSwitchButtonGroup:hover> .buttonText {
+  fill:black;
+}
+
+.simDifButtonGroup.showing .buttonText, .simDifButtonGroup.showing .buttonText{
+  fill: black;
+  opacity: 1;
+}
+
+.simDifButtonGroup.showing .buttonRect, .simDifButtonGroup.showing .buttonRect{
+  stroke: black;
+  stroke-width: .25;
+  stroke-opacity: 1;
+  stroke-width: .5px;
+}
+
+#leftSideControlGroup .simDifButtonGroup.showing.Similar .buttonRect {
+    fill:#762A83;
+    fill-opacity: .3;
+}
+
+#rightSideControlGroup .simDifButtonGroup.showing.Similar .buttonRect {
+    fill:#1B7837;
+    fill-opacity: .3;
+}
+
+.simDifButtonGroup.showing.Different .buttonRect{
+    fill:orange;
+    fill-opacity: .3;
+}
+
+.unitsSimilar.leftSideUnits, .simDifMarker.Similar.leftSideMarker {
+  fill: #762A83;
+  fill-opacity: .8;
+}
+
+.unitsSimilar.rightSideUnits, .simDifMarker.Similar.rightSideMarker {
+  fill: #1B7837;
+  fill-opacity: .8;
+}
+
+.unitsDifferent, .simDifMarker.Different {
+  fill: orange;
+  fill-opacity: .8;
+}
+
+#mapable_rightSide .highlightUnit {
+  stroke: #1B7837;
+}
+
+#mapable_leftSide .highlightUnit {
+    stroke: #762A83;
+}
+
+.highlight {
+  stroke-opacity: 1;
+}
+
+.highLtState {
+  pointer-events: none;
+  stroke-width: .8;
+}
+
+.highLtDist {
+  pointer-events: none;
+  stroke-width: .5;
+}
+
+
+

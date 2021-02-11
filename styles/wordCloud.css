@@ -1,0 +1,55 @@
+/* selects the rect when hovered over g element*/
+#mgmtButtons g:hover>.buttonRect {
+	stroke: black;
+	stroke-width: .5;
+}
+.buttonText {
+	fill: black;
+	opacity: .7;
+	pointer-events: none;
+	dominant-baseline: middle;
+	font: 200 14px Helvetica;
+}
+/* selects the text when hovered over g element*/
+#mgmtButtons g:hover>.buttonText{
+	fill: black;
+}
+
+.backgroundPathGroup path {
+	stroke: black;
+	fill: black;
+}
+
+.titleText {
+	fill: black;
+	opacity: 1;
+	pointer-events: none;
+	dominant-baseline: bottom;
+	font: 300 25px Helvetica;
+}
+
+.subtitleText {
+	fill: #474747;
+	/*opacity: .7;*/
+	pointer-events: none;
+	dominant-baseline: bottom;
+	font: 200 15px Helvetica;
+}
+
+.mainTitleText {
+	fill: black;
+	opacity: 1;
+	dominant-baseline: middle;
+	font: 200 25px Helvetica;
+}
+
+.mainSubTitleText {
+	fill: black;
+	opacity: 1;
+	dominant-baseline: middle;
+	font: 200 15px Helvetica;
+}
+
+
+
+

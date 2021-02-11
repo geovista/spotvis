@@ -1,0 +1,45 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+text {
+	font-family: Helvetica, Sans-Serif;
+}
+
+#wrapper {
+	width: 1230px;
+	height:670px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	float:left;
+	/*background-color: red;*/
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	float:left;
+	/*background-color: black;*/
+}
+
+#footer {
+	width: 100%;
+	float:left;
+	/*background-color: green;*/
+}
+
+.side {
+	width: 611px;
+	height:auto;
+	margin: 2px;
+	float: left;
+}

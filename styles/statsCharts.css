@@ -1,0 +1,62 @@
+.titles {
+	
+	font: 200 14px Helvetica; /*font-weight:bold;*/
+}
+
+.chartsSubtitleText {
+	opacity: .8;
+	font: 300 13px Helvetica;
+	dominant-baseline: middle;
+	text-anchor: middle;
+}
+
+.rightSideBarGroup rect {
+	fill: #7FBF7B;
+	
+}
+
+.leftSideBarGroup rect {
+	fill: #AF8DC3;
+}
+
+.rightSideBarGroup text {
+  stroke: #1B7837;
+}
+
+.leftSideBarGroup text {
+  stroke: #762A83;
+}
+
+.creditsTextGroup text {
+	fill: black;
+	opacity: 1;
+	dominant-baseline: middle;
+	font: 200 8px Helvetica;
+	text-anchor: middle;
+}
+
+
+.rightSideBarGroup text {
+	dominant-baseline: bottom;
+	font: 100 12px Helvetica;
+	text-anchor: start;
+}
+
+.leftSideBarGroup text {
+	dominant-baseline: bottom;
+	font: 100 12px Helvetica;
+	text-anchor: end;
+}
+
+.pviText {
+	fill: white;
+	font: 300 14px Helvetica;
+	dominant-baseline: middle;
+	text-anchor: middle;
+
+}
+
+
+
+
+
